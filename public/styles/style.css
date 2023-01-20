@@ -1,2 +1,26 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
+body {
+    font-family: roboto, sans-serif;
+}
+
+.navBar {
+    background-color: #EAC926;
+}
+
+.p {
+    font-size: 12px;
+}
+
+.titulares {
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos,
+.descripciones {
+    font-size: 16px;
+}
