@@ -38,19 +38,26 @@ article .tituloProducto {
     text-align: center;
 }
 
-section {
-    align-items: center;
-    margin-bottom: 32px;
-}
-
 section header h2 {
     text-align: center;
-    background-color: white;    
+    background-color: white;
+    border-bottom: solid;
+    border-color: #ebebeb;
+}
+
+section {
+    width: 300px;
+    align-items: center;
+    margin: 0 auto 32px;
+}
+
+.productoInfo {
+    border-top: solid;
+    border-color: #ebebeb;
+    padding-top: 12px;
 }
 
 article {
-    width: 300px;
-    margin: 0 auto;
     background-color: white;
     margin-bottom: 40px;
     padding-bottom: 20px;
