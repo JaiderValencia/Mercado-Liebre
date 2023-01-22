@@ -38,6 +38,24 @@ article .tituloProducto {
     text-align: center;
 }
 
+section {
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+section header h2 {
+    text-align: center;
+    background-color: white;    
+}
+
+article {
+    width: 300px;
+    margin: 0 auto;
+    background-color: white;
+    margin-bottom: 40px;
+    padding-bottom: 20px;
+}
+
 .anuncioTarjeta {
     margin-top: 23px;
     text-align: center;
@@ -82,17 +100,16 @@ article .tituloProducto {
 }
 
 .pieDePagina {
-    padding-top: 50px;    
-    margin-top: 30px;
+    padding-top: 50px;
     background-color: white;
     text-align: center;
 }
 
-.imgPieDePagina{
+.imgPieDePagina {
     font-size: 2em;
     color: #1259c3;
 }
 
-.pieDePagina .info{
+.pieDePagina .info {
     margin-bottom: 30px;
 }
