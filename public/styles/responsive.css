@@ -1,0 +1,21 @@
+/* tablets */
+@media(min-width:481px) {
+    article {
+        box-shadow: 0px 0px 10px rgb(100, 100, 100);        
+    }
+
+    .productoInfo {
+        display: block;
+    }
+
+    .navBar{
+        display: block;
+    }
+    
+    .btnMenu{
+        display: none;
+    }
+}
+
+/* destkop */
+@media(min-width:769px) {}

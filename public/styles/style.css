@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -10,17 +11,26 @@ body {
     background-color: #ebebeb;
 }
 
-.navBar {
+main {
+    margin: auto;
+    width: 90vw;
+}
+
+.headerPrincipal {
     width: 100%;
     background-color: #EAC926;
     padding-top: 40px;
     padding-bottom: 40px;
 }
 
+.navBar {
+    display: none;
+}
+
 
 .btnMenu {
-    /* margin: auto; preguntar al profesor acerca del margin auto */
     margin-left: 50%;
+    transform: translateX(-50%);
     margin-top: 40px;
     background-color: #03264C;
     width: 40px;
@@ -33,34 +43,31 @@ article .tituloProducto {
     font-weight: bold;
 }
 
-article p,
-article .tituloProducto {
-    text-align: center;
-}
-
-section header h2 {
-    text-align: center;
-    background-color: white;
-    border-bottom: solid;
-    border-color: #ebebeb;   
-    margin-bottom: 0; 
-}
-
-section {
-    width: 300px;    
-    margin: 0 auto 32px;
-}
-
-.productoInfo {
-    border-top: solid;
-    border-color: #ebebeb;
-    padding-top: 12px;
-}
-
 article {
     background-color: white;
-    margin-bottom: 40px;
-    padding-bottom: 20px;
+    margin-bottom: 10px;    
+}
+
+article div.camion {
+    width: 30px;
+    color: #39b54a;
+    border: solid;
+    text-align: center;
+    border-radius: 100px;
+    height: 30px;
+}
+
+article div.camion i {
+    margin-top: 50%;
+    transform: translateY(-50%);
+}
+
+
+.productoInfo {
+    border: solid 1px #ebebeb;
+    padding: 15px;
+    display: none;
+    color:#666;
 }
 
 .anuncioTarjeta {
