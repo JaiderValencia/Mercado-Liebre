@@ -87,7 +87,7 @@ article div.productoInfo {
 }
 
 .precioInfo{
-    gap: 1px;
+    gap: 15px;
     display: flex;
     flex-direction: row;
 }
