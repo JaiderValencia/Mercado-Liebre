@@ -11,7 +11,7 @@ body {
     background-color: #ebebeb;
 }
 
-section{
+section {
     width: 100%;
 }
 
@@ -49,17 +49,17 @@ article .tituloProducto {
 
 article {
     background-color: white;
-    margin-bottom: 10px;        
+    margin-bottom: 10px;
 }
 
-.products{
+.products {
     display: flex;
     flex-wrap: wrap;
     width: 100%;
     justify-content: center;
 }
 
-article div.productoInfo .fa-truck{
+article div.productoInfo .fa-truck {
     display: block;
     font-size: 16px;
     padding: 5px;
@@ -83,23 +83,28 @@ article div.productoInfo {
     border-top: solid 1px #ebebeb;
     padding: 15px;
     display: none;
-    color:#666;
+    color: #666;
 }
 
-.precioInfo{
+.precioInfo {
     gap: 15px;
     display: flex;
     flex-direction: row;
 }
 
 
-.descuentos{
+.descuentos {
     color: #39b54a;
 }
 
-.anuncioTarjeta {
-    margin-top: 23px;
-    text-align: center;
+.topHeader{
+    row-gap: 21px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+    padding: 0 30px;
 }
 
 .lista {
@@ -112,7 +117,15 @@ article div.productoInfo {
 }
 
 .logo {
-    width: 200px;
+    width: 50%;
+}
+
+header.headerPrincipal div.topHeader div.barraBusqueda{
+    width: 50%;
+}
+
+header.headerPrincipal div.topHeader div.barraBusqueda input{
+    width: 100%;
 }
 
 .banner img,
