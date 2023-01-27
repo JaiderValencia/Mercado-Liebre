@@ -1,7 +1,12 @@
 /* tablets */
-@media(min-width:481px) {
+@media(min-width:481px) {    
     article {
         box-shadow: 0px 0px 10px rgb(100, 100, 100);        
+        width: 48%;
+    }
+
+    .products{
+        gap: 16px;
     }
 
     .productoInfo {
@@ -18,4 +23,8 @@
 }
 
 /* destkop */
-@media(min-width:769px) {}
+@media(min-width:769px) {
+    article{
+        width: 23%;
+    }
+}
