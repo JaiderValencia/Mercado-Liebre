@@ -22,9 +22,8 @@ main {
 
 .headerPrincipal {
     width: 100%;
-    background-color: #EAC926;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    background-color: #EAC926;    
+    padding: 40px 30px;
 }
 
 .navBar {
@@ -97,18 +96,30 @@ article div.productoInfo {
     color: #39b54a;
 }
 
-.topHeader{
+.topHeader {
     row-gap: 21px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
     align-items: center;
-    padding: 0 30px;
+}
+
+.anuncioTarjeta{
+    width: 100%;
+    text-align: center;
 }
 
 .lista {
     margin-top: 23px;
+    list-style: none;
+    display: flex;
+    gap: 11px;
+}
+
+nav.navBar ul.lista li a{
+    text-decoration: none;
+    color: black;
 }
 
 .banner,
@@ -120,13 +131,13 @@ article div.productoInfo {
     width: 50%;
 }
 
-header.headerPrincipal div.topHeader div.barraBusqueda{
+header.headerPrincipal div.topHeader div.barraBusqueda {
     width: 50%;
     display: flex;
     flex-direction: row;
 }
 
-header.headerPrincipal div.topHeader div.barraBusqueda input{
+header.headerPrincipal div.topHeader div.barraBusqueda input {
     width: 100%;
 }
 
