@@ -54,7 +54,7 @@
         </button>
     </header>
     <main>
-        <form action="POST">
+        <form method="post" action="localhost:3000/">
             <input type="text" name="nombreYapellido" placeholder=" Nombre y apellido" class="inputTexto" minlength="5" required>
             <input type="text" name="nombreUsuario" placeholder=" Nombre de usuario" class="inputTexto" minlength="5" required>
             <input type="email" name="email" placeholder=" Correo" class="inputTexto" minlength="5" required>
@@ -102,8 +102,8 @@
             <input type="password" name="password" placeholder=" Contraseña" id="" class="inputTexto" minlength="5" required>
             <input type="password" name="coPassword" placeholder=" Confirmar contraseña" id="" class="inputTexto" minlength="5" required>
             <div class="btnOpciones">
-                <button type="submit">Enviar</button>
                 <button type="reset">Borrar</button>
+                <button type="submit">Enviar</button>
             </div>
         </form>
     </main>
