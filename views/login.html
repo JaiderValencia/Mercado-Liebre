@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mercado liebre | Registro</title>
+    <title>Mercado liebre | Login</title>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" rel="stylesheet" />
     <link rel="stylesheet" href="/styles/normalize.css">
-    <link rel="stylesheet" href="/styles/home.css">
-    <link rel="stylesheet" href="/styles/register.css">
-    <link rel="stylesheet" href="/styles/responsiveRegister.css">
+    <link rel="stylesheet" href="/styles/home.css">    
     <link rel="stylesheet" href="/styles/responsiveHome.css">
+    <link rel="stylesheet" href="login.html">
 </head>
 
 <body>
@@ -52,67 +51,14 @@
             <i class="fa-solid fa-bars"></i>
         </button>
     </header>
+
     <main>
-        <h2>Registro</h1>
+        <h2>Login</h2>
         <form method="post" action="localhost:3000/">
-            <input type="text" name="nombreYapellido" placeholder=" Nombre y apellido" class="inputTexto" minlength="5"
-                required>
-            <input type="text" name="nombreUsuario" placeholder=" Nombre de usuario" class="inputTexto" minlength="5"
-                required>
-            <input type="email" name="email" placeholder=" Correo" class="inputTexto" minlength="5" required>
-            <label for="nacimiento">
-                <h4>Fecha de nacimiento</h4>
-            </label>
-            <input type="date" name="nacimiento" id="nacimiento" class="inputTexto" required>
-            <input type="text" name="domicilio" placeholder=" Domicilio" id="" class="inputTexto" minlength="5">
-            <h4>Perfil de usuario</h4>
-            <div>
-                <input type="radio" name="perfil" id="comprador" required>
-                <label for="comprador">Comprador</label>
-            </div>
-            <div>
-                <input type="radio" name="perfil" id="vendedor">
-                <label for="vendedor">Vendedor</label>
-            </div>
-            <h4>Interés</h4>
-            <div class="interesOpciones">
-                <div>
-                    <input type="checkbox" name="electro" id="electro">
-                    <label for="electro">Electro</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="moda" id="moda">
-                    <label for="moda">Moda</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="hogar" id="hogar">
-                    <label for="hogar">Hogar</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="jugueteria" id="jugueteria">
-                    <label for="jugueteria">Juguetería</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="vidaSana" id="vidaSana">
-                    <label for="vidaSana">Vida sana</label>
-                </div>
-            </div>
-            <div class="avatar">
-                <label for="Avatar">
-                    <h4>Foto de perfil</h4>
-                </label>
-                <input type="file" name="avatar" id="Avatar" accept=".jpg,.png">
-            </div>
-            <input type="password" name="password" placeholder=" Contraseña" id="" class="inputTexto" minlength="5"
-                required>
-            <input type="password" name="coPassword" placeholder=" Confirmar contraseña" id="" class="inputTexto"
-                minlength="5" required>
-            <div class="btnOpciones">
-                <button type="reset">Borrar</button>
-                <button type="submit">Enviar</button>
-            </div>
+
         </form>
     </main>
+
     <footer class="pieDePagina">
         <div class="info">
             <div class="tarjetaCredio imgPieDePagina">

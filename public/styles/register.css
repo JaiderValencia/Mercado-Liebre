@@ -17,6 +17,10 @@ main {
     margin: 35px auto;
 }
 
+main h2 {
+    margin: auto
+}
+
 input {
     border: none;
 }
@@ -38,4 +42,11 @@ div.btnOpciones button {
     border: none;
     color: white;
     border-radius: 10px;
+    transition: 400ms all;
+}
+
+div.btnOpciones button:hover {
+    background-color: #ebebeb;
+    border: solid 1px #1259c3;
+    color: #1259c3;
 }
