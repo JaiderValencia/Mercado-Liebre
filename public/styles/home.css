@@ -134,6 +134,7 @@ nav.navBar ul.lista li a {
 }
 
 .logo {
+    padding: 10px;
     width: 50%;
 }
 
@@ -141,10 +142,24 @@ header.headerPrincipal div.topHeader div.barraBusqueda {
     width: 50%;
     display: flex;
     flex-direction: row;
+    position: relative;
 }
 
 header.headerPrincipal div.topHeader div.barraBusqueda input {
-    width: 100%;
+    width: 90%;
+    padding: 9px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+div.barraBusqueda button{
+    position: absolute;
+    border: none;
+    background: white;
+    right: 13px;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 9px 0;
 }
 
 .banner img,
