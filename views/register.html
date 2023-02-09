@@ -18,7 +18,9 @@
     <header class="headerPrincipal">
         <div class="topHeader">
             <div class="logo">
-                <img src="/images/logo-mercado-liebre.svg" alt="logo" srcset="">
+                <a href="/">
+                    <img src="/images/logo-mercado-liebre.svg" alt="logo" srcset="">
+                </a>
             </div>
 
             <div class="barraBusqueda">
@@ -54,64 +56,64 @@
     </header>
     <main>
         <h2>Registro</h1>
-        <form method="post" action="localhost:3000/">
-            <input type="text" name="nombreYapellido" placeholder=" Nombre y apellido" class="inputTexto" minlength="5"
-                required>
-            <input type="text" name="nombreUsuario" placeholder=" Nombre de usuario" class="inputTexto" minlength="5"
-                required>
-            <input type="email" name="email" placeholder=" Correo" class="inputTexto" minlength="5" required>
-            <label for="nacimiento">
-                <h4>Fecha de nacimiento</h4>
-            </label>
-            <input type="date" name="nacimiento" id="nacimiento" class="inputTexto" required>
-            <input type="text" name="domicilio" placeholder=" Domicilio" id="" class="inputTexto" minlength="5">
-            <h4>Perfil de usuario</h4>
-            <div>
-                <input type="radio" name="perfil" id="comprador" required>
-                <label for="comprador">Comprador</label>
-            </div>
-            <div>
-                <input type="radio" name="perfil" id="vendedor">
-                <label for="vendedor">Vendedor</label>
-            </div>
-            <h4>Interés</h4>
-            <div class="interesOpciones">
-                <div>
-                    <input type="checkbox" name="electro" id="electro">
-                    <label for="electro">Electro</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="moda" id="moda">
-                    <label for="moda">Moda</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="hogar" id="hogar">
-                    <label for="hogar">Hogar</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="jugueteria" id="jugueteria">
-                    <label for="jugueteria">Juguetería</label>
-                </div>
-                <div>
-                    <input type="checkbox" name="vidaSana" id="vidaSana">
-                    <label for="vidaSana">Vida sana</label>
-                </div>
-            </div>
-            <div class="avatar">
-                <label for="Avatar">
-                    <h4>Foto de perfil</h4>
+            <form method="post" action="localhost:3000/">
+                <input type="text" name="nombreYapellido" placeholder=" Nombre y apellido" class="inputTexto"
+                    minlength="5" required>
+                <input type="text" name="nombreUsuario" placeholder=" Nombre de usuario" class="inputTexto"
+                    minlength="5" required>
+                <input type="email" name="email" placeholder=" Correo" class="inputTexto" minlength="5" required>
+                <label for="nacimiento">
+                    <h4>Fecha de nacimiento</h4>
                 </label>
-                <input type="file" name="avatar" id="Avatar" accept=".jpg,.png">
-            </div>
-            <input type="password" name="password" placeholder=" Contraseña" id="" class="inputTexto" minlength="5"
-                required>
-            <input type="password" name="coPassword" placeholder=" Confirmar contraseña" id="" class="inputTexto"
-                minlength="5" required>
-            <div class="btnOpciones">
-                <button type="reset">Borrar</button>
-                <button type="submit">Enviar</button>
-            </div>
-        </form>
+                <input type="date" name="nacimiento" id="nacimiento" class="inputTexto" required>
+                <input type="text" name="domicilio" placeholder=" Domicilio" id="" class="inputTexto" minlength="5">
+                <h4>Perfil de usuario</h4>
+                <div>
+                    <input type="radio" name="perfil" id="comprador" required>
+                    <label for="comprador">Comprador</label>
+                </div>
+                <div>
+                    <input type="radio" name="perfil" id="vendedor">
+                    <label for="vendedor">Vendedor</label>
+                </div>
+                <h4>Interés</h4>
+                <div class="interesOpciones">
+                    <div>
+                        <input type="checkbox" name="electro" id="electro">
+                        <label for="electro">Electro</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="moda" id="moda">
+                        <label for="moda">Moda</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="hogar" id="hogar">
+                        <label for="hogar">Hogar</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="jugueteria" id="jugueteria">
+                        <label for="jugueteria">Juguetería</label>
+                    </div>
+                    <div>
+                        <input type="checkbox" name="vidaSana" id="vidaSana">
+                        <label for="vidaSana">Vida sana</label>
+                    </div>
+                </div>
+                <div class="avatar">
+                    <label for="Avatar">
+                        <h4>Foto de perfil</h4>
+                    </label>
+                    <input type="file" name="avatar" id="Avatar" accept=".jpg,.png">
+                </div>
+                <input type="password" name="password" placeholder=" Contraseña" id="" class="inputTexto" minlength="5"
+                    required>
+                <input type="password" name="coPassword" placeholder=" Confirmar contraseña" id="" class="inputTexto"
+                    minlength="5" required>
+                <div class="btnOpciones">
+                    <button type="reset">Borrar</button>
+                    <button type="submit">Enviar</button>
+                </div>
+            </form>
     </main>
     <footer class="pieDePagina">
         <div class="info">

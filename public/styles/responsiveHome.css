@@ -63,7 +63,6 @@
 
     .topHeader {
         display: flex;
-        gap: 14px;
         flex-wrap: nowrap;
         flex-direction: row;
         width: 100%;
