@@ -42,7 +42,7 @@ div.btnOpciones button {
     border: none;
     color: white;
     border-radius: 10px;
-    transition: 400ms all;
+    transition: 400ms all ease-in;
 }
 
 div.btnOpciones button:hover {
