@@ -88,4 +88,12 @@
     article {
         width: 23%;
     }
+
+    header.headerPrincipal div.topHeader div.barraBusqueda input {
+        width: 300px;     
+    }
+
+    div.barraBusqueda button {        
+        right: 1px;        
+    }
 }
